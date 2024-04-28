@@ -579,7 +579,8 @@ ol {
 
 .portfolio-list-item {
     flex-basis: calc(100% - 24 * 3 / 3);    
-    background: #fff;    
+    background: #fff; 
+
 }
 
 .portfolio-list-item:hover,
@@ -632,8 +633,8 @@ ol {
     color: #f4f4fd;
 }
 
-.portfolio-list-item:hover .overlay,
-.portfolio-list-item:focus .overlay {
+.products-link:hover .overlay,
+.products-link:focus .overlay {
     transition-property: transform, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4,
